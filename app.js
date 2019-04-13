@@ -1,10 +1,10 @@
-const express = require('express')
-const graphqlHTTP = require('express-graphql')
-const PORT = process.env.PORT || 1212
+var express = require('express')
+var graphqlHTTP = require('express-graphql')
+var PORT = process.env.PORT || 1212
 
-const schema = require('./schema')
+var schema = require('./schema')
 
-const app = express()
+var app = express()
 
 app.use('/', graphqlHTTP({
   schema,
@@ -12,5 +12,6 @@ app.use('/', graphqlHTTP({
 }))
 
 app.listen(PORT, () => {
+  // eslint-disable-next-line no-console
   console.log(`Ready running on http://localhost:${PORT}`)
 })
