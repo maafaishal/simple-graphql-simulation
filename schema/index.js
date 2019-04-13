@@ -7,9 +7,9 @@ const {
 } = require('graphql')
 
 let todoList = [
-  { text: "Breakfast" },
-  { text: "Lunch" },
-  { text: "Meeting at 47th floor" },
+  { text: 'Breakfast' },
+  { text: 'Lunch' },
+  { text: 'Meeting at 47th floor' }
 ]
 
 const TodosType = new GraphQLObjectType({
@@ -25,7 +25,7 @@ const RootQuery = new GraphQLObjectType({
   fields: {
     todos: {
       type: new GraphQLList(TodosType),
-      resolve(parent, args) {
+      resolve (parent, args) {
         return todoList
       }
     }
@@ -38,14 +38,14 @@ const MutationQuery = new GraphQLObjectType({
     addTodo: {
       type: TodosType,
       args: {
-        text: { type: new GraphQLNonNull (GraphQLString) }
+        text: { type: new GraphQLNonNull(GraphQLString) }
       },
-      resolve(parent, args) {
+      resolve (parent, args) {
         const addTodoArray = todoList.push({ text: args.text })
-        let status = "(300) Not Added"
+        let status = '(300) Not Added'
 
-        if(addTodoArray) {
-          status = "(200) Success"
+        if (addTodoArray) {
+          status = '(200) Success'
         }
 
         return { text: args.text, status }

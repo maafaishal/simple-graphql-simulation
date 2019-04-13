@@ -21,6 +21,7 @@ Kemudian jalankan aplikasi dengan menjalankan perintah :
 yarn
 yarn start
 ```
+
 Kemudian akses <http://localhost:1212/> di browser.
 
 ## Demo
@@ -29,9 +30,10 @@ Bisa mengakses **<https://simple-graphql-simulation.herokuapp.com/>**
 
 ## Screenshot
 
-1. Menjalankan query GraphQL
+1.Menjalankan query GraphQL
 ![Image](https://i.ibb.co/BP6D2Hs/Screen-Shot-2019-04-13-at-11-51-55.png)
-2. Menambahkan data dengan mutation GraphQL
+
+2.Menambahkan data dengan mutation GraphQL
 ![Image](https://i.ibb.co/M8yLYwd/Screen-Shot-2019-04-13-at-11-51-35.png)
 ***
 
