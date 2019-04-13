@@ -1,14 +1,14 @@
 {
-  "name": "to-do-graphql-server",
+  "name": "simple-graphql-simulation",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Muhammad A Faishal",
   "license": "ISC",
-  "description": "",
+  "description": "Membuat schema, query, dan mutation sederhana dari GraphQL.",
   "dependencies": {
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",

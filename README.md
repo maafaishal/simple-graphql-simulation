@@ -1,7 +1,11 @@
 # Simple GraphQL Simulation
 
+[![Code Climate](https://codeclimate.com/github/maafaishal/simple-graphql-simulation/badges/gpa.svg)](https://codeclimate.com/github/maafaishal/simple-graphql-simulation)
+[![Depedencies Status](https://david-dm.org/maafaishal/simple-graphql-simulation.svg)](https://david-dm.org/maafaishal/simple-graphql-simulation)
 
-Membuat schema, query, dan mutation sederhana dari GraphQL. Cocok bagi kalian yang baru memulai mempelajari GraphQL.
+***
+
+Membuat schema, query, dan mutation sederhana dari GraphQL.
 
 ## Quick Start
 
