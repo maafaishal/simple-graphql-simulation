@@ -1,7 +1,6 @@
 # Simple GraphQL Simulation
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f803123929984f3c9657ce1221a34dd4)](https://app.codacy.com/app/maafaishal/simple-graphql-simulation?utm_source=github.com&utm_medium=referral&utm_content=maafaishal/simple-graphql-simulation&utm_campaign=Badge_Grade_Dashboard)
-[![Code Climate](https://codeclimate.com/github/maafaishal/simple-graphql-simulation/badges/gpa.svg)](https://codeclimate.com/github/maafaishal/simple-graphql-simulation)
 [![Depedencies Status](https://david-dm.org/maafaishal/simple-graphql-simulation.svg)](https://david-dm.org/maafaishal/simple-graphql-simulation)
 
 ***
