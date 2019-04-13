@@ -1,6 +1,6 @@
 const express = require('express')
 const graphqlHTTP = require('express-graphql')
-const PORT = 1212
+const PORT = process.env.PORT || 1212
 
 const schema = require('./schema')
 
